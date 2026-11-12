@@ -29,11 +29,12 @@ Communes regroupées par code commune car les libellés changent au fil des ann�
 Médiane plutôt que moyenne pour limiter l'effet des valeurs extrêmes.
 
 Entonnoir des données
-Étape	                                               Nombre
-Lignes brutes du Rhône	                            459 384
-Lignes d'appartements (toutes natures de mutation)	114 301
-Ventes d'appartements, une ligne par vente	         80 045
-Ventes retenues après bornes de prix et de surface	 79 501
+
+Étape : 	                                             
+Lignes brutes du Rhône	                                   459 384,
+lignes d'appartements (toutes natures de mutation)	114 301,
+ventes d'appartements (une ligne par vente)	             80 045,
+ventes retenues après bornes de prix et de surface	 79 501.
 
 Les bornes retirent 544 ventes (0,7 %). Test de robustesse : la médiane de Lyon varie de 3 €/m² selon que les bornes sont étroites, retenues ou larges (4 719 à 4 722 €/m²).
 
@@ -52,9 +53,10 @@ Une vente peut inclure des dépendances (cave, parking) dans son prix, ce qui n'
 Les années 2021 et 2026 sont incomplètes (la période couvre juillet 2021 à juin 2026) : l'analyse temporelle se fait par semestre.
 
 Structure du dépôt
-SQL      : journal_requetes_sql.sql   requêtes BigQuery commentées
-R        : filtrage_rhone.R           extraction du Rhône depuis le fichier national
-resultats:  prix_semestre.csv, prix_par_arrondissement.csv,
+SQL      : journal_requetes_sql.sql   requêtes BigQuery commentées,
+R        : filtrage_rhone.R           extraction du Rhône depuis le fichier national,
+
+Résultats:  prix_semestre.csv, prix_par_arrondissement.csv,
             prix_par_pièces.csv, prix_par_commune.csv
             tables agrégées utilisées dans le dashboard
 Reproduire l'analyse
