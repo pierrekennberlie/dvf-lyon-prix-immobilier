@@ -2,7 +2,7 @@ JOURNAL DES REQUÊTES SQL - Projet DVF Lyon (BigQuery)
 Reconstitué le 2026-11-11
 
 MODE D'EMPLOI
-- Remplacer VOTRE-PROJET par l'identifiant du projet BigQuery utilisé
+- Remplacer VOTRE-PROJET par l'identifiant du projet BigQuery utilisé 
   (Rechercher / Remplacer dans tout le fichier).
 - Exécuter les requêtes dans l'ordre. Les CREATE OR REPLACE TABLE ne
   produisent aucun tableau : elles créent une table dans le dataset.
