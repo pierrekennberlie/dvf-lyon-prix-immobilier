@@ -58,20 +58,23 @@ Une vente peut inclure des dépendances (cave, parking) dans son prix, ce qui n'
 Les années 2021 et 2026 sont incomplètes (la période couvre juillet 2021 à juin 2026) : l'analyse temporelle se fait par semestre.
 
 Structure du dépôt
+
 SQL      : journal_requetes_sql.sql   requêtes BigQuery commentées
 
-R        : filtrage_rhone.R           extraction du Rhône depuis le fichier national,
+R        : filtrage_rhone.R           extraction du Rhône depuis le fichier national
 
 Résultats:  prix_semestre.csv, prix_par_arrondissement.csv,
             prix_par_pièces.csv, prix_par_commune.csv
             tables agrégées utilisées dans le dashboard
 
 Reproduire l'analyse
+
 Télécharger le fichier DVF « juillet 2021 - juin 2026 » sur data.gouv.fr.
 
 Lancer filtrage_rhone.R (adapter le chemin du fichier téléchargé) : il produit dvf_69_light.csv.gz.
 
 Importer ce fichier dans BigQuery (dataset dvf_lyon, table dvf_69).
+
 Dans journal_requetes_sql.sql, remplacer VOTRE-PROJET par l'identifiant de votre projet BigQuery, puis exécuter les requêtes dans l'ordre.
 
 Exporter les tables d'analyse en CSV et les charger dans Tableau Public.
