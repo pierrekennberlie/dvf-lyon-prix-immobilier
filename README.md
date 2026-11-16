@@ -4,6 +4,8 @@ Analyse des prix des appartements dans le Rhône et à Lyon à partir des donné
 
 Dashboard interactif : https://public.tableau.com/views/PrixdelimmobilierdansleRhne-DVF2021-2026/Tableaudebord1
 
+![Aperçu du dashboard](dashboard.png)
+
 Auteure : Kenn Berlie Pierre
 
 Objectif
