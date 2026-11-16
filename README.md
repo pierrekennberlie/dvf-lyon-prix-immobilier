@@ -1,6 +1,6 @@
 Prix de l'immobilier dans le Rhône (2021-2026)
 
-Analyse des prix des appartements dans le Rhône et à Lyon à partir des données DVF (Demandes de valeurs foncières)avec SQL (BigQuery), R et un dashboard Tableau Public.
+Analyse des prix des appartements dans le Rhône et à Lyon à partir des données DVF (Demandes de valeurs foncières) avec SQL (BigQuery), R et un dashboard Tableau Public.
 
 Dashboard interactif : https://public.tableau.com/views/PrixdelimmobilierdansleRhne-DVF2021-2026/Tableaudebord1
 
